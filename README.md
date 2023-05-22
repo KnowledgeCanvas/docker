@@ -3,12 +3,18 @@ A self-hosted (Docker) solution for common Knowledge Canvas dependencies.
 
 ## What's included?
 - Tika: Text and metadata extraction
+- MongoDB: Non-relational Database for persistent storage
 - Elastic stack: 
   - Elasticsearch: Provides search capabilities across user documents (Knowledge Sources)
   - Kibana: Provides visualization and dashboards capabilities
   - Enterprise Search: Provides integration with Google Drive, One Drive, etc.
 
 ## Setup and Run
+
+### Install Dependencies
+
+- Install Docker
+- Install Docker Compose
 
 ### Tika
 Run the following commands from the root folder (`./knowledge-canvas-docker/`:
